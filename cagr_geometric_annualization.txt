@@ -1,0 +1,7 @@
+Ann. Return SC_1 = 
+VAR StartPrice = CALCULATE(SUM(SimulatedData[ShareClass1]), FIRSTDATE('Calendar'[Date]))
+VAR EndPrice = CALCULATE(SUM(SimulatedData[ShareClass1]), LASTDATE('Calendar'[Date]))
+VAR TotalMonths = COUNTROWS(DISTINCT('SimulatedData'[Date]))
+VAR NumYears = TotalMonths / 12
+RETURN
+    ( (EndPrice / StartPrice) ^ (1 / NumYears) ) - 1

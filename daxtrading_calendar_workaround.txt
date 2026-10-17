@@ -1,0 +1,14 @@
+// Resolution: Query actual market session dates from the transactional table directly
+// rather than standard continuous Gregorian date offsets (e.g. DATEADD) which yield blanks on Mondays/holidays.
+WoW Change % = 
+VAR CurrentPrice = [Latest Close Price]
+VAR LastTradingPrice = 
+    CALCULATE(
+        [Latest Close Price],
+        FILTER(
+            ALL(StockData),
+            StockData[TradingDayIndex] = MAX(StockData[TradingDayIndex]) - 5
+        )
+    )
+RETURN
+    DIVIDE(CurrentPrice - LastTradingPrice, LastTradingPrice)

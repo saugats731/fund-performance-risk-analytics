@@ -1,0 +1,5 @@
+Ann. Volatility SC1 = 
+STDEVX.S(
+    'SimulatedData',
+    'SimulatedData'[SC1_Return]
+) * SQRT(12)
