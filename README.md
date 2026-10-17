@@ -1,4 +1,4 @@
-Here is the complete, start-to-finish text to copy and paste directly into your GitHub README.md file. It corrects all image and file paths to match your flat root directory so every link, equation, and image renders immediately.   Markdown# Quantitative Performance & Risk Analytics: The Compounding Fallacy & Fund Benchmarking
+# Quantitative Performance & Risk Analytics: The Compounding Fallacy & Fund Benchmarking
 
 An applied quantitative investment analysis and business intelligence project demonstrating:
 1. Why **arithmetic averaging misrepresents multi-period returns** (The Compounding Trap)[cite: 3, 4].
