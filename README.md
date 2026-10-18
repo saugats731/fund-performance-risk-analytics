@@ -48,7 +48,7 @@ Before ingestion into the Power BI semantic model, monthly closing NAVs and benc
 | Metric | Share Class 1 (SC1) | Share Class 2 (SC2) | Benchmark | Strategic Interpretation |
 | :--- | :---: | :---: | :---: | :--- |
 | **2025 YTD Return** | 10.28% | 15.85% | 7.53% | SC2 captured current market momentum |
-| **Annualized Return (CAGR)** | 17.78% | 10.25% | — | SC1 dominates long-term capital accumulation |
+| **Annualized Return (CAGR)** | 17.78% | 10.58% | — | SC1 dominates long-term capital accumulation |
 | **Annualized Volatility (σ_ann)** | 12.88% | 6.67% | — | SC2 offers half the risk profile of SC1 |
 | **Sharpe Ratio** | 1.38 | 1.59 | — | **SC2 delivers superior risk-adjusted efficiency** |
 | **Market Beta (β)** | 0.37 | 0.77 | 1.00 | SC1 is defensive/decoupled; SC2 tracks benchmark |
